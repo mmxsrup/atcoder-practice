@@ -17,8 +17,6 @@ int main(int argc, char const *argv[])
 	ll ans = x / b * n;
 	ll sum = b * (x / b);
 
-	printf("# %lld %lld\n", ans, sum);
-
 	for (int i = 0; i < n; ++i) {
 		ans++;
 		sum += a[i];
